@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Border Example</title>
+</head>
+<style>
+    .solid{
+        font-size: medium;
+        text-align:center;
+        padding:10px;
+        border:2px solid black;
+        background-color: #d3d3d3;
+        text-decoration: white;
+    }
+    .dashed{
+        font-size: medium;
+        text-align: center;
+        padding:10px;
+        border:2px dashed blue;
+        background-color: lightgrey;
+        text-decoration: whitesmoke;
+    }
+    .dooted{
+         font-size: medium;
+        text-align: center;
+        padding:10px;
+        border:2px dotted blueviolet;
+        background-color: lightgrey;
+        text-decoration: white;
+    }
+    .double{
+        font-size: medium;
+        text-align:center;
+        padding:10px;
+        border:2px double pink;
+        background-color: lightgrey;
+        text-decoration-thickness: black;
+    }
+    .rounded{
+        font-size: large;
+        text-algin:left;
+        padding:10px;
+        border:2px solid skyblue;
+        border-radius:10px;
+        background-color: lightgrey;
+        text-decoration: black;
+    }
+
+    
+</style>
+<body>
+    <p class="solid">This is a solid border</p>
+    <p class="dashed">This is a dashed border</p>
+    <P class="dooted">This is a dooted border</p>
+    <p class="double">This is a double border</p>
+    <p class="rounded">This is a rounded border</p>
+</body>
+</html>
