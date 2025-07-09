@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: auto;
+        background-color: beige;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: top;
+    }
+</style>
+<body>
+    <h1>IMAGE</h1>
+    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR3l2rRDzBncBq1eqmMNI1xhYhooMBUdY5Rp5ggBRAAJnuHLtRPEDSaLuRJS1v0kDzxDy5bzYIXROz9sBi9L-OmBg" alt="image">
+    <h2>video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OTlxmmgQFhM?si=uY5UXTrVCAcPUwfn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+</body>
+</html>
