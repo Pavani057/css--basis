@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Example</title>
+</head>
+<style>
+    .solid{
+        border:2px dotted white0;
+        padding:10px;
+        margin:10px;
+
+    }
+    .dotted{
+        border:2px dotted black;
+        padding:10px;
+        margin:10px;
+        }
+    .box{
+        widht:200px;
+        height: 200px;
+        background-color: lightslategray;
+        margin: 20px auto;
+        ;
+    }
+    .square{
+        widht:100px;
+        height: 100px;
+        background-color:lightcoral;
+        margin: 20px auto;
+
+    }
+    .rectangle{
+        widht:300px;
+        height: 100px;
+        background-color:purple;
+        margin: 20px auto;
+
+    }
+    .circle{
+        widht:100px;
+        height: 100px;
+        background-color:blueviolet;
+        border-radius:50px;
+        margin: 20px auto;
+    }
+</style>
+<body>
+<div class="solid"></div>
+     <div class="box">box1:Margin on all sides</div>
+     <div class="solid"></div>
+     <div class="square">square: different Margin on each sides</div>
+     <div class="solid"></div>
+    <div class="rectangle">rectangle:centered horozional margin</div>
+    <div class="solid"></div>
+    <div class="circle">circle:Margin on all sides</div>
+<div class="dotted">
+    <div class="box">box1:Margin on all sides</div>
+    <div class="dotted">
+     <div class="square">square: different Margin on each sides</div>
+     <div class="dotted">
+    <div class="rectangle">rectangle:centered horozional margin</div>
+    <div class="dotted">
+    <div class="circle">circle:Margin on all sides</div>
+    
+</body>
+</html>
